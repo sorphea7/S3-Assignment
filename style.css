@@ -1,0 +1,107 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+.profile-card {
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.bio {
+    font-size: 1em;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.stats div h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.stats div p {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.description {
+    font-size: 0.9em;
+    color: #777;
+    margin: 15px 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.social-links a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.social-links .twitter { background-color: #1DA1F2; } 
+.social-links .facebook { background-color: #3b5998; } /* Facebook Blue */
+.social-links .google { background-color: #FF6F61; } /* Google Red */
+.social-links .behance { background-color: #1769FF; } /* Behance Blue */
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 1em;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #f0f0f0;
+}
